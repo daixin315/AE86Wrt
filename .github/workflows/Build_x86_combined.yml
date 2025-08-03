@@ -14,22 +14,6 @@ jobs:
     strategy:
       matrix:
         config:
-          - name: "X86-5.4"
-            repo_url: "https://github.com/coolsnowwolf/lede"
-            repo_branch: "master"
-            kernel_ver: "5.4"
-            config_file: "./configs/X86/x86_504.config"
-            file_name: "x86_504"
-            diy_script: "lean"
-
-          - name: "X86-6.12"
-            repo_url: "https://github.com/coolsnowwolf/lede"
-            repo_branch: "master"
-            kernel_ver: "6.12"
-            config_file: "./configs/X86/x86_612.config"
-            file_name: "x86_612"
-            diy_script: "lean"
-
           - name: "X86-R24.10-6.6"
             repo_url: "https://github.com/openwrt/openwrt"
             repo_branch: "openwrt-24.10"
